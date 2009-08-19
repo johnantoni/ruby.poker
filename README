@@ -1,0 +1,35 @@
+Texas Hold'Em Poker in Ruby, to be turned into Online Experience
+
+Originally
+----------
+
+# Texas Hold'Em Poker Hand Evaluator
+#
+# A response to Ruby Quiz of the Week #24 - Texas Hold'Em [ruby-talk:134080]
+#
+# Evaluates a set of Texas Hold'Em Poker hands received on STDIN like so:
+#   Kc 9s Ks Kd 9d 3c 6d
+#   9c Ah Ks Kd 9d 3c 6d
+#   Ac Qc Ks Kd 9d 3c
+#   9h 5s
+#   4d 2d Ks Kd 9d 3c 6d
+#   7s Ts Ks Kd 9d
+#
+# And evaluates the hands and shows the winner, giving STDOUT like this:
+#   Kc 9s Ks Kd 9d 3c 6d Full House (winner)
+#   9c Ah Ks Kd 9d 3c 6d Two Pair
+#   Ac Qc Ks Kd 9d 3c
+#   9h 5s
+#   4d 2d Ks Kd 9d 3c 6d Flush
+#   7s Ts Ks Kd 9d
+#
+# Author: Dave Burt <dave at burt.id.au>
+#
+# Created: 23 Mar 2005
+#
+# Last modified: 23 Mar 2005
+#
+# Fine print: Provided as is. Use at your own risk. Unauthorized copying is
+#             not disallowed. Credit's appreciated if you use my code. I'd
+#             appreciate seeing any modifications you make to it.
+#
